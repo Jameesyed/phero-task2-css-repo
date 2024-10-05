@@ -64,4 +64,14 @@ p{
     background-size: cover;
 }
 
-.section-three
+.section-three {
+    background-color: lightgreen;
+    height: 100px;
+    padding: 20px;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+
+/* Practice Task 5: Borders Challenge */
+
+
