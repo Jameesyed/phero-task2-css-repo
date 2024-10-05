@@ -71,7 +71,27 @@ p{
     margin: 10px 0;
     background-repeat: no-repeat;
     background-position: center;
+}
+
 
 /* Practice Task 5: Borders Challenge */
 
+.box-one{
+    border: 10px solid black;
+    padding: 10px;
+    margin: 20px;
+}
 
+.box-two {
+    border: 10px dashed red;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-box {
+    border: 10px double blue;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
