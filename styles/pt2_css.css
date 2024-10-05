@@ -58,8 +58,10 @@ p{
 .section-two{
     background-image: url(grandma.jpg);
     height: 500px;
+    display: block;
+    margin:auto;
     width: 400px;
-    margin: 10px 10px 10px 30px;
+    /* margin: 10px 10px 10px 30px; */
     /* padding: 20px 5px; */
     background-size: cover;
 }
@@ -94,4 +96,7 @@ p{
     width: 500px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px gray;
+    /* text-align: center; */
+    display: block;
+    margin:auto;
 }
