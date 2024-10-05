@@ -57,7 +57,11 @@ p{
 
 .section-two{
     background-image: url(grandma.jpg);
-    height: 800px;
-    margin: 10px 0;
+    height: 500px;
+    width: 400px;
+    margin: 10px 10px 10px 30px;
+    /* padding: 20px 5px; */
     background-size: cover;
 }
+
+.section-three
