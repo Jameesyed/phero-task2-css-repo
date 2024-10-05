@@ -14,6 +14,7 @@ color: darkblue;
 text-align: center;
 font-size: 36px;
 font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 10px;
 }
 
 p{
@@ -52,4 +53,11 @@ p{
     padding: 20px;
     margin: 10px 0;
     
+}
+
+.section-two{
+    background-image: url(grandma.jpg);
+    height: 800px;
+    margin: 10px 0;
+    background-size: cover;
 }
