@@ -1,0 +1,55 @@
+/* Practice Task 1: External CSS */
+
+.external-style{
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Practice Task 2: Text styling challenge */
+h1{
+
+color: darkblue;
+text-align: center;
+font-size: 36px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: darkblue;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type: square;
+    font-size: 20px;
+}
+
+/* Practice Task 3: Selectors Challenge */
+#main-heading{
+    color: purple;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    color: orange;
+    font-weight: bold;
+}
+
+p{
+    color: navy;
+}
+
+/* Practice Task 4: Background styling Challenge */
+
+.section-one{
+    background-color: lightblue;
+    height: 100px;
+    padding: 20px;
+    margin: 10px 0;
+    
+}
