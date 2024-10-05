@@ -100,3 +100,25 @@ p{
     display: block;
     margin:auto;
 }
+
+/* Practice Task 6: Display Challenge */
+p {
+    display: none; /* Hidden */
+}
+
+.btn {
+    display: inline; /* Inline */
+}
+
+.inline-block {
+    display: inline-block; /* Inline Block */
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.block {
+    display: block; /* Block */
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px 0;
+}
