@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property Exercise</title>
+    <style>
+        /* General styling for better visibility */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: lightcoral;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .inline-box {
+            background-color: lightblue;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            display: inline;
+        }
+
+        .block-box {
+            background-color: lightgreen;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            display: block;
+        }
+
+        .inline-block-box {
+            background-color: lightpink;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .hidden-box {
+            background-color: darkgray;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            display: none;
+        }
+
+        .flex-container {
+            display: flex;
+            gap: 10px;
+            background-color: lightyellow;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .flex-item {
+            background-color: lightcoral;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: lightseagreen;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Display Property Exercise</h1>
+
+    <!-- Inline vs Block vs Inline-block -->
+    <section>
+        <h2>Inline, Block, and Inline-block</h2>
+        <div class="inline-box">Inline 1</div>
+        <div class="inline-box">Inline 2</div>
+        <div class="inline-box">Inline 3</div>
+
+        <div class="block-box">Block 1</div>
+        <div class="block-box">Block 2</div>
+
+        <div class="inline-block-box">Inline-Block 1</div>
+        <div class="inline-block-box">Inline-Block 2</div>
+    </section>
+
+    <!-- Flexbox -->
+    <section>
+        <h2>Flexbox Display</h2>
+        <div class="flex-container">
+            <div class="flex-item">Flex Item 1</div>
+            <div class="flex-item">Flex Item 2</div>
+            <div class="flex-item">Flex Item 3</div>
+        </div>
+    </section>
+
+    <!-- Grid Display -->
+    <section>
+        <h2>Grid Display</h2>
+        <div class="grid-container">
+            <div class="grid-item">Grid Item 1</div>
+            <div class="grid-item">Grid Item 2</div>
+            <div class="grid-item">Grid Item 3</div>
+            <div class="grid-item">Grid Item 4</div>
+            <div class="grid-item">Grid Item 5</div>
+            <div class="grid-item">Grid Item 6</div>
+        </div>
+    </section>
+
+    <!-- Display None -->
+    <section>
+        <h2>Hidden Elements</h2>
+        <div class="hidden-box">This box is hidden because display is set to none.</div>
+    </section>
+
+</body>
+</html>

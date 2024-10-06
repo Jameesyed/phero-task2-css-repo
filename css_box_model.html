@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Exercise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .box {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid darkblue;
+            margin: 10px;
+            background-color: lightcoral;
+            color: white;
+        }
+
+        #box1 {
+            padding: 50px;
+            box-sizing: border-box;
+        }
+
+        #box2 {
+            border: 10px solid green;
+            margin-left: -20px;
+        }
+
+        #box3 {
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+        #box4 {
+            padding: 30px;
+            border: 8px solid purple;
+            margin: 15px;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box Model Exercise</h1>
+
+    <div class="container">
+        <div class="box" id="box1">Box 1 (Padding: 50px, Box-sizing: border-box)</div>
+        <div class="box" id="box2">Box 2 (Border: 10px, Negative margin-left)</div>
+        <div class="box" id="box3">Box 3 (Centered with margin: auto)</div>
+        <div class="box" id="box4">Box 4 (Padding: 30px, Border: 8px)</div>
+    </div>
+
+</body>
+</html>
